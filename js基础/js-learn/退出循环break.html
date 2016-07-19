@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script>
+      var arr=new Array(90,60,80,60,50,80,75)
+      var i=1;
+       while(i<arr.length){
+           if(arr[i]<60){
+               document.write("成绩"+arr[i]+"不及格，不用循环了"+"<br>");
+               break;
+           }
+           document.write("成绩"+arr[i]+"及格，继续循环"+"<br>");
+           i=i+1;
+       }
+    </script>
+
+    <script type="text/JavaScript">
+        var mynum =new Array(70,80,66,90,50,100,89);//定义数组mynum并赋值
+        var i;
+        for(i=0;i<mynum.length;i++)
+        {
+            if(mynum[i]<60)
+            {
+                document.write("成绩不及格，不输出！"+"<br>");
+                continue;
+            }
+            document.write("成绩:"+mynum[i]+"及格，输出!"+"<br>");
+        }
+    </script>
+
+
+</head>
+<body>
+
+</body>
+</html>
